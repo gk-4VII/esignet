@@ -74,8 +74,8 @@
       },
       "alignmentGroup": "groupD",
       "required": false,
-      "maxAge": 0,
-      "format": "dd-MM-yyyy"
+      "minAge": 2,
+      "maxAge": 2
     }
   ],
   "errors": {
