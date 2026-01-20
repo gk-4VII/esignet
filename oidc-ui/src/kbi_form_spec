@@ -51,7 +51,7 @@
         }
       ],
       "alignmentGroup": "groupC",
-      "required": true
+      "required": false
     },
     {
       "id": "dob",
@@ -73,7 +73,9 @@
         "ara": "أدخل تاريخ الميلاد"
       },
       "alignmentGroup": "groupD",
-      "required": false
+      "required": false,
+      "maxAge": 0,
+      "format": "dd-MM-yyyy"
     }
   ],
   "errors": {
